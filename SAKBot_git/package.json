@@ -1,0 +1,21 @@
+{
+  "name": "SAKBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.19.2",
+    "gulp": "4.0.2",
+    "node-cron": "^2.0.3",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.4"
+  }
+}

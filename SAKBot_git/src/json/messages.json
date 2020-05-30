@@ -1,0 +1,6 @@
+{
+    "help": "/price - display the value and set the time of when this value will appear again",
+    "start": "Welcome, this bot can:\n- Show the value of a cryptocoin in X period of time;\n- Make mathematical operations",
+    "price": "Insert an Cryptocurrency with the command\n ex: BTC-USD, ETH-BRL...",
+    "priceError": "Your command must have the  and the __ after it"
+}
