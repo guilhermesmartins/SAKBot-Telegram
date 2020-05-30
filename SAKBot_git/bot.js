@@ -1,7 +1,7 @@
 const Telegraf = require('Telegraf')
 const fs = require('fs')
 
-//Here comes the key for your bot, the key below is from the @
+//Here comes the key for your bot, the key below is from the @SakGit_bot
 const bot = new Telegraf('995235476:AAGFI2Hcf5p7J4BSw7tr38j_TvSyaIJZ2lY')
 
 const { mainCryptFunction } = require('./src/javascript/crypto')
@@ -15,7 +15,6 @@ const jsonParse = (message) => {
 
 bot.start(ctx => {
     let message = jsonParse('start')
-    console.log(ctx)
     bot.telegram.sendMessage(ctx.chat.id, message)
 })
 
